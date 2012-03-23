@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="OperationEntry">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ID"/>
+        <xs:element ref="LHO"/>
+        <xs:element ref="RHO"/>
+        <xs:element ref="OP"/>
+        <xs:element ref="Description"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Input" type="xs:string"/>
+  <xs:element name="OperandOwnerEntry">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ID"/>
+        <xs:element ref="FQCN"/>
+        <xs:element ref="Input"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FQCN" type="xs:string"/>
+  <xs:element name="Description">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="test"/>
+        <xs:enumeration value="boo"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="OperatorEntry">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ID"/>
+        <xs:element ref="FQCN"/>
+        <xs:element ref="Description"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ID" type="xs:int"/>
+  <xs:element name="LHO" type="xs:int"/>
+  <xs:element name="KnowledegeBaseEntry">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="OperationEntry" maxOccurs="unbounded" minOccurs="0"/>
+        <xs:element ref="OperandOwnerEntry" maxOccurs="unbounded" minOccurs="0"/>
+        <xs:element ref="OperatorEntry" maxOccurs="unbounded" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OP" type="xs:int"/>
+  <xs:element name="RHO" type="xs:int"/>
+</xs:schema>

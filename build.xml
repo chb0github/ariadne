@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+
+<project name="Ariadne" basedir="." default="release">
+
+    <import file="happytrails.xml" optional="false"/>
+
+    <!-- Properties available from happytrails.xml :
+ run.classpath, test.classpath, build.classpath
+ verbose, output.dir, unit.test.dir -->
+    <property name="package.name" value="${ant.project.name}"/>
+    <property name="code.classes.dir" value="${output.dir}/private/classes/src"/>
+    <property name="test.classes.dir" value="${output.dir}/private/classes/unit_tests"/>
+    <property name="func.classes.dir" value="${output.dir}/private/classes/func_tests"/>
+    <property name="code.src.dir" value="${basedir}/src"/>
+    <property name="test.src.dir" value="${basedir}/unit_tests"/>
+    <property name="func.src.dir" value="${basedir}/func_tests"/>
+    <property name="output.lib.dir" value="${output.dir}/lib"/>
+    <property name="lib.dir" value="${basedir}/lib"/>
+
+    <target name="run-unit-tests" depends="unit-tests"/>
+
+
+    <target name="unit-tests">
+        <!-- <echo>setting
+            classpath:${run.classpath}:${build.classpath}:${test.classpath}</echo>
+        -->
+        <echo>${output.dir} libdir:  ${lib.dir} basedir: ${basedir}</echo>
+        <junit printsummary="true" fork="false">
+            <formatter type="brief" usefile="false"/>
+            <classpath>
+                <path path="${build.classpath}:${test.classpath}:${run.classpath}"/>
+                <pathelement location="${output.dir}/other/lib/junit.jar"/>
+                <pathelement location="${basedir}/build/lib/${package.name}_tests.jar"/>
+                <pathelement location="${basedir}/build/lib/${package.name}.jar"/>
+                <path path="${basedir}"/>
+            </classpath>
+            <test name="org.bongiorno.ariadne.UnitTests"/>
+        </junit>
+    </target>
+
+    <target name="all-tests" depends="unit-tests,func-tests"/>
+
+    <target name="func-tests">
+        <echo>${output.dir} libdir:  ${lib.dir} basedir: ${basedir}</echo>
+        <junit printsummary="true" fork="false">
+            <sysproperty key="jdbc.config" value = "${basedir}/func_tests/jdbc_config.xml"/>
+            <formatter type="brief" usefile="false"/>
+            <classpath>
+                <path path="${build.classpath}:${test.classpath}:${run.classpath}"/>
+                <pathelement location="${output.dir}/other/lib/junit.jar"/>
+                <pathelement location="${basedir}/build/lib/${package.name}_tests.jar"/>
+                <pathelement location="${basedir}/build/lib/${package.name}.jar"/>
+                <path path="${basedir}"/>
+            </classpath>
+            <test name="org.bongiorno.ariadne.FuncTests"/>
+        </junit>
+    </target>
+
+    <target name="init">
+        <mkdir dir="${output.dir}"/>
+        <mkdir dir="${output.lib.dir}"/>
+        <mkdir dir="${code.classes.dir}"/>
+        <mkdir dir="${test.classes.dir}"/>
+    </target>
+
+    <target name="release" depends="jar-code"/>
+
+    <target name="jar-code" depends="compile-tests">
+        <jar jarfile="${output.lib.dir}/${package.name}.jar">
+            <fileset dir="${code.classes.dir}" includes="**/*.class"/>
+        </jar>
+        <jar jarfile="${output.lib.dir}/${package.name}_tests.jar">
+            <fileset dir="${test.classes.dir}" includes="**/*.class"/>
+        </jar>
+    </target>
+
+    <target name="compile-code" depends="init" description="PackageBuilder entry point">
+        <javac source = "1.5" target="1.5" destdir="${code.classes.dir}" debug="true">
+            
+            <classpath path="${run.classpath}"/>
+            <src path="${code.src.dir}"/>
+        </javac>
+
+    </target>
+    <target name="compile-tests" depends="compile-code" description="PackageBuilder entry point">
+        <javac source = "1.5" target="1.5" destdir="${test.classes.dir}" debug="true">
+            <classpath
+                path="${code.classes.dir}:${build.classpath}:${test.classpath}:${run.classpath}"/>
+            <src path="${test.src.dir}"/>
+            <src path="${func.src.dir}"/>
+        </javac>
+
+    </target>
+    <target name="nuke">
+        <delete dir="${code.classes.dir}"/>
+        <delete dir="${output.lib.dir}"/>
+    </target>
+
+    <target name="build" depends="compile-code, jar-code"/>
+
+</project>
