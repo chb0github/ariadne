@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc90cef5-d684-40a5-9095-c358a723c143" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\Ariadne.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\Ariadne.ipr" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\Ariadne.iws" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ariadne.iws" afterPath="" />
     </list>
     <ignored path="ariadne.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1254,7 +1252,8 @@
     </option>
     <MESSAGE value="Refactored tests and mavenified them" />
     <MESSAGE value="maven build. DB implementations to another package&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="maven build. DB implementations to another package&#10;" />
+    <MESSAGE value="remove intellij files" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove intellij files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
