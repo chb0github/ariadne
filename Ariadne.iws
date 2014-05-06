@@ -2,190 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc90cef5-d684-40a5-9095-c358a723c143" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/bongiorno/ariadne/AbstractAriadneTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/bongiorno/ariadne/AbstractDBIntegrationTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/bongiorno/ariadne/AbstractIntegrationTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/operators/AbstractOperator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/interfaces/Action.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/bongiorno/ariadne/actions/ActionTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/operators/arithmetic/Add.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/operators/logical/And.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/AriadneException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/operandowners/ArithmeticOperandOwner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/operators/arithmetic/ArithmeticOperator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/bongiorno/ariadne/operators/arithmetic/ArithmeticOperatorTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/bongiorno/ariadne/operators/BasicOperatorTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/operandowners/BooleanOperandOwner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/misc/CLIEvaluator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/operandowners/CompoundOperandOwner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/operandowners/ConstantOperandOwner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/misc/DBDataLoader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/operandowners/DateOperandOwner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/operators/arithmetic/Divide.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/implementations/EmptyKnowledgeBase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/operators/logical/Equal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/interfaces/Equation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/misc/ExceptionOnDuplicateKeyMap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/misc/ExceptionOnDuplicateKeySortedMap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/interfaces/Factory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/operators/logical/GreaterThan.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/operators/logical/GreaterThanEqual.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/misc/InstanceFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/operators/set/Intersection.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/operators/logical/Intersects.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/implementations/JdbcKnowledgeBase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/implementations/xml/jaxb/KnowledegeBaseEntry.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/KnowledgeBase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/bongiorno/ariadne/KnowledgeBaseTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/operators/logical/LessThan.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/operators/logical/LessThanEqual.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/interfaces/Loadable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/operators/logical/LogicalComparableOperator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/operandowners/LogicalOperandOwner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/operators/logical/LogicalOperator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/bongiorno/ariadne/operators/logical/LogicalOperatorTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/operators/logical/Matches.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/operators/arithmetic/Max.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/operators/arithmetic/Min.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/operandowners/MinimalOperandOwner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/operators/arithmetic/Multiply.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/operators/logical/NotEqual.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/misc/NumberKeyedTreeMap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/operandowners/NumericOperandOwner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/implementations/xml/jaxb/ObjectFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/misc/ObservableFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/bongiorno/ariadne/operandowners/OperandOwnTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/interfaces/OperandOwner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/implementations/xml/jaxb/OperandOwnerEntry.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/operandowners/OperandOwnerFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/interfaces/Operation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/implementations/xml/jaxb/OperationEntry.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/operations/OperationFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/interfaces/Operator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/implementations/xml/jaxb/OperatorEntry.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/operators/OperatorFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/operators/logical/Or.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/operators/arithmetic/Power.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/interfaces/Predicate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/actions/PrioritizableAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/actions/PrioritizedSeriesAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/operators/logical/ProperSubsetOf.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/implementations/ReferenceKnowledgeBase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/actions/SeriesAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/operators/set/SetDifference.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/operandowners/SetOperandOwner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/operators/set/SetOperator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/bongiorno/ariadne/operators/set/SetOperatorTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/SideEffectDetectedException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/actions/SimplePrioritizableAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/interfaces/Storable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/operandowners/StringOperandOwner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/operators/logical/SubsetOf.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/operators/arithmetic/Subtract.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/operators/set/SymmeticDifference.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/operations/UnTypedOperation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/operators/set/Union.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/bongiorno/ariadne/UnitTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/bongiorno/ariadne/XmlIntegrationTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/implementations/xml/jaxb/XmlKnowledgeBase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/ariadne.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atlassian-ide-plugin.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/database-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/jdbc_config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/sql/structure.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/test-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/data/test.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/xml-test-ontext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/implementations/xml/jaxb/xmlknowledbase.xsd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/xmlknowledgebase.xml" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\Ariadne.ids" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\build.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\classes\test\Ariadne\jdbc_config.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\classes\test\Ariadne\xmlknowledgebase.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\func_tests\jdbc_config.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\func_tests\xmlknowledgebase.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\AriadneException.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\KnowledgeBase.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\SideEffectDetectedException.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\actions\PrioritizableAction.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\actions\PrioritizedSeriesAction.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\actions\SeriesAction.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\actions\SimplePrioritizableAction.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\implementations\EmptyKnowledgeBase.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\implementations\JdbcKnowledgeBase.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\implementations\ReferenceKnowledgeBase.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\implementations\xml\jaxb\KnowledegeBaseEntry.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\implementations\xml\jaxb\ObjectFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\implementations\xml\jaxb\OperandOwnerEntry.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\implementations\xml\jaxb\OperationEntry.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\implementations\xml\jaxb\OperatorEntry.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\implementations\xml\jaxb\XmlKnowledgeBase.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\implementations\xml\jaxb\xmlknowledbase.xsd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\interfaces\Action.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\interfaces\Equation.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\interfaces\Factory.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\interfaces\Loadable.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\interfaces\OperandOwner.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\interfaces\Operation.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\interfaces\Operator.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\interfaces\Predicate.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\interfaces\Storable.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\misc\CLIEvaluator.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\misc\DBDataLoader.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\misc\ExceptionOnDuplicateKeyMap.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\misc\ExceptionOnDuplicateKeySortedMap.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\misc\InstanceFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\misc\NumberKeyedTreeMap.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\misc\ObservableFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\operandowners\ArithmeticOperandOwner.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\operandowners\BooleanOperandOwner.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\operandowners\CompoundOperandOwner.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\operandowners\ConstantOperandOwner.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\operandowners\DateOperandOwner.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\operandowners\LogicalOperandOwner.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\operandowners\MinimalOperandOwner.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\operandowners\NumericOperandOwner.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\operandowners\OperandOwnerFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\operandowners\SetOperandOwner.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\operandowners\StringOperandOwner.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\operations\OperationFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\operations\UnTypedOperation.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\operators\AbstractOperator.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\operators\OperatorFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\operators\arithmetic\Add.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\operators\arithmetic\ArithmeticOperator.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\operators\arithmetic\Divide.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\operators\arithmetic\Max.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\operators\arithmetic\Min.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\operators\arithmetic\Multiply.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\operators\arithmetic\Power.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\operators\arithmetic\Subtract.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\operators\logical\And.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\operators\logical\Equal.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\operators\logical\GreaterThan.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\operators\logical\GreaterThanEqual.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\operators\logical\Intersects.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\operators\logical\LessThan.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\operators\logical\LessThanEqual.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\operators\logical\LogicalComparableOperator.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\operators\logical\LogicalOperator.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\operators\logical\Matches.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\operators\logical\NotEqual.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\operators\logical\Or.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\operators\logical\ProperSubsetOf.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\operators\logical\SubsetOf.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\operators\set\Intersection.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\operators\set\SetDifference.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\operators\set\SetOperator.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\operators\set\SymmeticDifference.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\src\org\bongiorno\ariadne\operators\set\Union.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\unit_tests\org\bongiorno\ariadne\FuncTests.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\unit_tests\org\bongiorno\ariadne\IntegrationTests.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\unit_tests\org\bongiorno\ariadne\UnitTests.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ariadne.iml" afterPath="$PROJECT_DIR$/ariadne.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ariadne.ipr" afterPath="$PROJECT_DIR$/ariadne.ipr" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ariadne.iws" afterPath="$PROJECT_DIR$/ariadne.iws" />
+      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\Ariadne.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\Ariadne.ipr" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\chribong\development\code\bongiorno\ariadne\Ariadne.iws" afterPath="" />
     </list>
     <ignored path="ariadne.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -256,7 +75,7 @@
         <option name="CONDITION" value="!(operation instanceof Equation)&#13;&#13;JAVA" />
         <option name="LOG_MESSAGE" value="id&#13;&#13;JAVA" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/test/java/org/bongiorno/ariadne/XmlIntegrationTest.java" line="62" class="org.bongiorno.ariadne.XmlIntegrationTest" package="org.bongiorno.ariadne">
+      <breakpoint url="file://$PROJECT_DIR$/src/test/java/org/bongiorno/ariadne/XmlIntegrationTest.java" line="56" class="org.bongiorno.ariadne.XmlIntegrationTest" package="org.bongiorno.ariadne">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -271,7 +90,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/test/java/org/bongiorno/ariadne/XmlIntegrationTest.java" line="32" class="org.bongiorno.ariadne.XmlIntegrationTest" package="org.bongiorno.ariadne">
+      <breakpoint url="file://$PROJECT_DIR$/src/test/java/org/bongiorno/ariadne/XmlIntegrationTest.java" line="26" class="org.bongiorno.ariadne.XmlIntegrationTest" package="org.bongiorno.ariadne">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -296,35 +115,70 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="XmlIntegrationTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="XmlIntegrationTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/org/bongiorno/ariadne/XmlIntegrationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="80" selection-start="1399" selection-end="1399" vertical-scroll-proportion="0.38089624" vertical-offset="0" max-vertical-offset="2023">
+            <state line="38" column="9" selection-start="1309" selection-end="1309" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2023">
               <folding>
-                <element signature="e#1442#1549#0" expanded="true" />
-                <element signature="e#1589#1717#0" expanded="true" />
+                <element signature="e#1208#1315#0" expanded="true" />
+                <element signature="e#1355#1483#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KnowledgeBaseTests.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/org/bongiorno/ariadne/KnowledgeBaseTests.java">
+      <file leaf-file-name="database-context.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/database-context.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="213" column="0" selection-start="7814" selection-end="7814" vertical-scroll-proportion="0.0" vertical-offset="3305" max-vertical-offset="4488">
-              <folding>
-                <element signature="e#8339#8397#0" expanded="false" />
-                <element signature="e#9252#9313#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArithmeticOperandOwner.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/operandowners/ArithmeticOperandOwner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="17" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+            <state line="21" column="75" selection-start="1292" selection-end="1292" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExceptionOnDuplicateKeyMap.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/misc/ExceptionOnDuplicateKeyMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="6" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0" vertical-offset="7" max-vertical-offset="1853">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="150" column="64" selection-start="5228" selection-end="5228" vertical-scroll-proportion="0.0" vertical-offset="2349" max-vertical-offset="3672">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="5fcb85ff_spring-jdbc.xsd" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.IntelliJIdea13/system/extResources/5fcb85ff_spring-jdbc.xsd">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="4" selection-start="709" selection-end="709" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3196">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractAriadneTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/bongiorno/ariadne/AbstractAriadneTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="163" column="69" selection-start="6486" selection-end="6486" vertical-scroll-proportion="0.4123314" vertical-offset="2234" max-vertical-offset="8381">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConstantOperandOwner.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/operandowners/ConstantOperandOwner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="70" column="77" selection-start="1714" selection-end="1714" vertical-scroll-proportion="0.0" vertical-offset="819" max-vertical-offset="1394">
+              <folding>
+                <element signature="e#995#1025#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -332,7 +186,7 @@
       <file leaf-file-name="BooleanOperandOwner.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/operandowners/BooleanOperandOwner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="63" selection-start="1358" selection-end="1358" vertical-scroll-proportion="0.0" vertical-offset="478" max-vertical-offset="1326">
+            <state line="31" column="44" selection-start="1358" selection-end="1358" vertical-scroll-proportion="0.0" vertical-offset="478" max-vertical-offset="1326">
               <folding />
             </state>
           </provider>
@@ -347,48 +201,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KnowledgeBase.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/KnowledgeBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="165" column="0" selection-start="6163" selection-end="6163" vertical-scroll-proportion="0.0" vertical-offset="2132" max-vertical-offset="9418">
-              <folding>
-                <element signature="e#10899#10915#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="InstanceFactory.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/misc/InstanceFactory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="41" column="0" selection-start="874" selection-end="874" vertical-scroll-proportion="0.0" vertical-offset="479" max-vertical-offset="969">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractAriadneTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/org/bongiorno/ariadne/AbstractAriadneTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="160" column="46" selection-start="6299" selection-end="6299" vertical-scroll-proportion="0.0" vertical-offset="2251" max-vertical-offset="8381">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractIntegrationTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/org/bongiorno/ariadne/AbstractIntegrationTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="0" selection-start="2879" selection-end="2879" vertical-scroll-proportion="0.0" vertical-offset="904" max-vertical-offset="1394">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="xml-test-ontext.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/xml-test-ontext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="4" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="238">
               <folding />
             </state>
           </provider>
@@ -418,28 +234,32 @@
         <option value="$PROJECT_DIR$/src/test/java/org/bongiorno/ariadne/operators/BasicOperatorTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/bongiorno/ariadne/IntegrationTests.java" />
         <option value="$PROJECT_DIR$/src/test/resources/test-context.xml" />
-        <option value="$PROJECT_DIR$/src/test/resources/ariadne.properties" />
         <option value="$PROJECT_DIR$/src/test/java/org/bongiorno/ariadne/operators/BasicOperatorTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/bongiorno/ariadne/UnitTests.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/database-context.xml" />
         <option value="$PROJECT_DIR$/src/test/java/org/bongiorno/ariadne/operators/arithmetic/ArithmeticOperatorTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/bongiorno/ariadne/operators/set/SetOperatorTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/bongiorno/ariadne/operandowners/OperandOwnTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org/bongiorno/ariadne/KnowledgeBaseTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/implementations/xml/jaxb/XmlKnowledgeBase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org/bongiorno/ariadne/AbstractAriadneTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/operations/OperationFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/KnowledgeBase.java" />
         <option value="$PROJECT_DIR$/src/test/resources/xml-test-ontext.xml" />
         <option value="$PROJECT_DIR$/src/test/java/org/bongiorno/ariadne/AbstractIntegrationTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org/bongiorno/ariadne/AbstractDBIntegrationTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/bongiorno/ariadne/operators/logical/LogicalOperatorTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/bongiorno/ariadne/actions/ActionTests.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/implementations/xml/jaxb/OperatorEntry.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/implementations/xml/jaxb/KnowledegeBaseEntry.java" />
         <option value="$PROJECT_DIR$/src/test/data/test.xml" />
         <option value="$PROJECT_DIR$/src/test/java/org/bongiorno/ariadne/XmlIntegrationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/ariadne.properties" />
+        <option value="$PROJECT_DIR$/src/test/resources/hsql-context.sql.xml" />
+        <option value="$PROJECT_DIR$/src/test/resources/hsql-context.xml" />
+        <option value="$PROJECT_DIR$/src/test/resources/database-context.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/org/bongiorno/ariadne/AbstractDBIntegrationTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/misc/ExceptionOnDuplicateKeyMap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/operandowners/ConstantOperandOwner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/KnowledgeBase.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/org/bongiorno/ariadne/KnowledgeBaseTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/bongiorno/ariadne/AbstractAriadneTest.java" />
       </list>
     </option>
   </component>
@@ -1033,6 +853,22 @@
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="231" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="233" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="235" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="909" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="234" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="232" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="234" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="908" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1042,7 +878,7 @@
       <recent name="org.bongiorno.ariadne.AbstractAriadneTest" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.org in ariadne">
+  <component name="RunManager" selected="JUnit.AbstractDBIntegrationTest">
     <configuration default="false" name="org.bongiorno.ariadne.operators in ariadne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1171,6 +1007,34 @@
       <ConfigurationWrapper RunnerId="Debug" />
       <method />
     </configuration>
+    <configuration default="false" name="AbstractDBIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.bongiorno.ariadne.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ariadne" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.bongiorno.ariadne" />
+      <option name="MAIN_CLASS_NAME" value="org.bongiorno.ariadne.AbstractDBIntegrationTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails" singleton="true">
       <module name="" />
       <setting name="vmparams" value="" />
@@ -1272,19 +1136,21 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="5">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="JUnit.org in ariadne" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.org.bongiorno.ariadne.operators in ariadne" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.XmlIntegrationTest" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.XmlIntegrationTest.testName" />
       <item index="4" class="java.lang.String" itemvalue="JUnit.XmlIntegrationTest.testHugeStore" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.AbstractDBIntegrationTest" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.XmlIntegrationTest.testName" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.XmlIntegrationTest.testHugeStore" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.XmlIntegrationTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.org.bongiorno.ariadne.operators in ariadne" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.AbstractDBIntegrationTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.XmlIntegrationTest.testName" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.XmlIntegrationTest.testHugeStore" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.XmlIntegrationTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.org.bongiorno.ariadne.operators in ariadne" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
@@ -1348,23 +1214,23 @@
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32905984" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32960895" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24969475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24969475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1386,6 +1252,9 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Refactored tests and mavenified them" />
+    <MESSAGE value="maven build. DB implementations to another package&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="maven build. DB implementations to another package&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1414,20 +1283,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/data/test.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="23" selection-start="2504" selection-end="2504" vertical-scroll-proportion="0.0" vertical-offset="1258" max-vertical-offset="3587">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/operations/OperationFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="64" column="0" selection-start="2423" selection-end="2423" vertical-scroll-proportion="0.0" vertical-offset="1088" max-vertical-offset="6545">
@@ -1439,7 +1294,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="356" column="0" selection-start="13127" selection-end="13127" vertical-scroll-proportion="0.0" vertical-offset="6052" max-vertical-offset="9928">
           <folding>
-            <element signature="e#10899#10915#0" expanded="true" />
+            <element signature="e#10887#10903#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1458,7 +1313,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/xml-test-ontext.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/xml-test-context.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="4" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="238">
           <folding />
@@ -1470,22 +1325,15 @@
         <state line="14" column="86" selection-start="502" selection-end="502" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="19839">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2570#2707#0" expanded="true" />
-            <element signature="e#2860#2995#0" expanded="true" />
-            <element signature="e#3152#3293#0" expanded="true" />
-            <element signature="e#3947#4081#0" expanded="true" />
+            <element signature="e#2591#2728#0" expanded="true" />
+            <element signature="e#2881#3016#0" expanded="true" />
+            <element signature="e#3173#3314#0" expanded="true" />
+            <element signature="e#3968#4102#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/database-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/sql/structure.sql">
+    <entry file="file://$PROJECT_DIR$/src/test/sql/hsql-structure.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="1" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="816" />
       </provider>
@@ -1506,8 +1354,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="216" column="76" selection-start="8028" selection-end="8028" vertical-scroll-proportion="0.0" vertical-offset="3672" max-vertical-offset="4335">
           <folding>
-            <element signature="e#8339#8397#0" expanded="false" />
-            <element signature="e#9252#9313#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#8346#8404#0" expanded="false" />
+            <element signature="e#9259#9320#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1554,7 +1403,7 @@
         <state line="13" column="22" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/sql/structure.sql">
+    <entry file="file://$PROJECT_DIR$/src/test/sql/hsql-structure.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="1" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="816" />
       </provider>
@@ -1564,23 +1413,11 @@
         <state line="18" column="38" selection-start="748" selection-end="753" vertical-scroll-proportion="0.0" vertical-offset="24" max-vertical-offset="952" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/test-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="40" selection-start="483" selection-end="483" vertical-scroll-proportion="0.16037735" vertical-offset="0" max-vertical-offset="848">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/implementations/JdbcKnowledgeBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="80" column="22" selection-start="2803" selection-end="2803" vertical-scroll-proportion="0.0" vertical-offset="670" max-vertical-offset="6715">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/ariadne.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="78" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/org/bongiorno/ariadne/UnitTests.java">
@@ -1597,13 +1434,6 @@
             <element signature="method#update#0;class#CountingObserver#0;class#UnitTests#0" expanded="false" />
             <element signature="method#toString#0;class#CountingObserver#0;class#UnitTests#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/database-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="1425" selection-end="1425" vertical-scroll-proportion="0.61077845" vertical-offset="0" max-vertical-offset="835">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1663,19 +1493,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/bongiorno/ariadne/AbstractDBIntegrationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="838" selection-end="943" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3927">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2570#2707#0" expanded="true" />
-            <element signature="e#2860#2995#0" expanded="true" />
-            <element signature="e#3152#3293#0" expanded="true" />
-            <element signature="e#3947#4081#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/org/bongiorno/ariadne/operators/logical/LogicalOperatorTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="32" selection-start="177" selection-end="211" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="4590">
@@ -1699,23 +1516,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="23" selection-start="2504" selection-end="2504" vertical-scroll-proportion="0.0" vertical-offset="852" max-vertical-offset="3587">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/interfaces/Predicate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="17" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="680">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/xml-test-ontext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="4" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
           <folding />
         </state>
       </provider>
@@ -1757,24 +1560,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/operandowners/BooleanOperandOwner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="63" selection-start="1358" selection-end="1358" vertical-scroll-proportion="0.0" vertical-offset="478" max-vertical-offset="1326">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/bongiorno/ariadne/KnowledgeBaseTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="213" column="0" selection-start="7814" selection-end="7814" vertical-scroll-proportion="0.0" vertical-offset="3305" max-vertical-offset="4488">
-          <folding>
-            <element signature="e#8339#8397#0" expanded="false" />
-            <element signature="e#9252#9313#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/bongiorno/ariadne/AbstractAriadneTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="160" column="46" selection-start="6299" selection-end="6299" vertical-scroll-proportion="0.0" vertical-offset="2251" max-vertical-offset="8381">
+        <state line="31" column="44" selection-start="1358" selection-end="1358" vertical-scroll-proportion="0.0" vertical-offset="478" max-vertical-offset="1326">
           <folding />
         </state>
       </provider>
@@ -1783,15 +1569,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="0" selection-start="874" selection-end="874" vertical-scroll-proportion="0.0" vertical-offset="479" max-vertical-offset="969">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/KnowledgeBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="165" column="0" selection-start="6163" selection-end="6163" vertical-scroll-proportion="0.0" vertical-offset="2132" max-vertical-offset="9418">
-          <folding>
-            <element signature="e#10899#10915#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1811,11 +1588,109 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/org/bongiorno/ariadne/XmlIntegrationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="80" selection-start="1399" selection-end="1399" vertical-scroll-proportion="0.38089624" vertical-offset="0" max-vertical-offset="2023">
+        <state line="38" column="9" selection-start="1309" selection-end="1309" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2023">
           <folding>
-            <element signature="e#1442#1549#0" expanded="true" />
-            <element signature="e#1589#1717#0" expanded="true" />
+            <element signature="e#1208#1315#0" expanded="true" />
+            <element signature="e#1355#1483#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/ariadne.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="9" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.IntelliJIdea13/system/extResources/5fcb85ff_spring-jdbc.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="4" selection-start="709" selection-end="709" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3196">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/xml-test-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="4" selection-start="298" selection-end="298" vertical-scroll-proportion="0.16377649" vertical-offset="0" max-vertical-offset="519">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/test-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="46" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/database-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="75" selection-start="1292" selection-end="1292" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/bongiorno/ariadne/AbstractDBIntegrationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="65" selection-start="1128" selection-end="1128" vertical-scroll-proportion="0.4009434" vertical-offset="289" max-vertical-offset="3961">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2591#2728#0" expanded="true" />
+            <element signature="e#2881#3016#0" expanded="true" />
+            <element signature="e#3173#3314#0" expanded="true" />
+            <element signature="e#3968#4102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/misc/ExceptionOnDuplicateKeyMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="6" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0" vertical-offset="7" max-vertical-offset="1853">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/operandowners/ConstantOperandOwner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="77" selection-start="1714" selection-end="1714" vertical-scroll-proportion="0.0" vertical-offset="819" max-vertical-offset="1394">
+          <folding>
+            <element signature="e#995#1025#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/bongiorno/ariadne/KnowledgeBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="539" column="73" selection-start="21068" selection-end="21068" vertical-scroll-proportion="0.57866186" vertical-offset="8333" max-vertical-offset="9418">
+          <folding>
+            <element signature="e#10887#10903#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="150" column="64" selection-start="5228" selection-end="5228" vertical-scroll-proportion="0.0" vertical-offset="2349" max-vertical-offset="3672">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/bongiorno/ariadne/KnowledgeBaseTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="221" column="119" selection-start="8194" selection-end="8194" vertical-scroll-proportion="0.33273056" vertical-offset="3573" max-vertical-offset="4658">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#8346#8404#0" expanded="false" />
+            <element signature="e#9259#9320#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/bongiorno/ariadne/AbstractAriadneTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="163" column="69" selection-start="6486" selection-end="6486" vertical-scroll-proportion="0.4123314" vertical-offset="2234" max-vertical-offset="8381">
+          <folding />
         </state>
       </provider>
     </entry>
