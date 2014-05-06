@@ -23,7 +23,7 @@ public class DateOperandOwner<RUN_T> extends ConstantOperandOwner<Date,RUN_T> {
     private static final DateFormat UTC = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'");
     /**
      * Creates this object and delegates it's return type to num
-     * @param date the value that will always be returned by {@see #getOperandOwner(Object)}
+     * @param date the value that will always be returned by { #getOperandOwner(Object)}
      * @param id
      */
     public DateOperandOwner(Integer id, Date date) {

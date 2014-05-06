@@ -23,7 +23,7 @@ public class Equal<T> extends LogicalOperator<T> {
     private static final Set<String> REGISTRATIONS = createRegistration("==", "eq", "equal");
 
     /**
-     * @inheritDoc
+     *
      */
     public Equal(Integer id) {
         super(id);
@@ -48,7 +48,7 @@ public class Equal<T> extends LogicalOperator<T> {
     }
 
     /**
-     * @inheritDoc
+     *
      * @return lho = null;
      */
     public Boolean canShortCircuit(T lho) {
@@ -56,7 +56,7 @@ public class Equal<T> extends LogicalOperator<T> {
     }
 
     /**
-     * @inheritDoc
+     *
      * @return true
      */
     public Boolean isCommutative() {

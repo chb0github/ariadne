@@ -21,7 +21,7 @@ public class NumericOperandOwner<RUN_T> extends ConstantOperandOwner<Double,RUN_
 
     /**
      * Creates this object and delegates it's return type to num
-     * @param num the value that will always be returned by {@see #getOperandOwner(Object)}
+     * @param num the value that will always be returned by { #getOperandOwner(Object)}
      * @param id the id number for this operand owner
      *
      */

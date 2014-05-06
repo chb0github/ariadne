@@ -23,7 +23,7 @@ public class GreaterThanEqual<T extends Comparable<T>> extends LogicalComparable
     private static final Set<String> REGISTRATIONS = createRegistration(">=", "gte","GTE");
 
     /**
-     * @inheritDoc
+     *
      */
     public GreaterThanEqual(Integer id) {
         super(id);

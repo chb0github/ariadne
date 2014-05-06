@@ -3,6 +3,7 @@ package org.bongiorno.ariadne;
 import org.bongiorno.ariadne.implementations.JdbcKnowledgeBase;
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,7 +30,8 @@ import static org.junit.Assert.fail;
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = {"classpath:test-context.xml"})
-public abstract class AbstractDBIntegrationTest extends AbstractIntegrationTest {
+@Ignore
+public class AbstractDBIntegrationTest extends AbstractIntegrationTest {
 
     @Value("${ariadne.operand_owners.table}")
     private String ownerTable;
@@ -58,7 +60,7 @@ public abstract class AbstractDBIntegrationTest extends AbstractIntegrationTest 
     }
 
     @After
-    protected void tearDown() throws Exception {
+    public void tearDown() throws Exception {
         empty(operationsTable);
         empty(ownerTable);
         empty(operatorsTable);

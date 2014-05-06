@@ -14,7 +14,7 @@ public class Matches extends LogicalOperator<String> {
             createRegistration("matches", "match","regex","MATCHES","MATCH","REGEX");
 
     /**
-     * @inheritDoc
+     *
      */
     public Matches(Integer id) {
         super(id);

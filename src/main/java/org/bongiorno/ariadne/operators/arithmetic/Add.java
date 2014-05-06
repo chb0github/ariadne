@@ -14,7 +14,7 @@ public class Add extends ArithmeticOperator {
     private static final Set<String> REGISTRATIONS = createRegistration("+", "add", "addition", "plus");
 
     /**
-     * @inheritDoc
+     *
      */
     public Add(Integer id) {
         super(id);
@@ -25,7 +25,7 @@ public class Add extends ArithmeticOperator {
      * @param lho self explanatory
      * @param rho self explanatory
      * @return see the java lang spec for the rules governing the adding of doubles
-     * @see Double
+     *  Double
      */
     protected Double eval(Double lho, Double rho) {
         return lho  + rho;

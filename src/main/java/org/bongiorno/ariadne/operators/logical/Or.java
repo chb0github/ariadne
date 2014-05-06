@@ -23,7 +23,7 @@ public class Or extends LogicalOperator<Boolean> {
     private static final Set<String> REGISTRATIONS = createRegistration("||", "or", "OR");
 
     /**
-     * @inheritDoc
+     *
      */
     public Or(Integer id) {
         super(id);
@@ -66,7 +66,7 @@ public class Or extends LogicalOperator<Boolean> {
     /**
      * @param lho
      * @return
-     * @inheritDoc
+     *
      */
     public Boolean canShortCircuit(Boolean lho) {
         return lho != null && lho;
@@ -74,7 +74,7 @@ public class Or extends LogicalOperator<Boolean> {
 
     /**
      * @return true
-     * @inheritDoc
+     *
      */
     public Boolean isCommutative() {
         return true;
@@ -82,7 +82,7 @@ public class Or extends LogicalOperator<Boolean> {
 
     /**
      * @return clazz.equals(Boolean.class)
-     * @inheritDoc
+     *
      */
     public Boolean acceptsOperand(Class<Boolean> clazz) {
         return clazz.equals(Boolean.class);

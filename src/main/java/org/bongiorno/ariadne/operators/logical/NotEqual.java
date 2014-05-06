@@ -24,7 +24,7 @@ public class NotEqual<T> extends LogicalOperator<T> {
     private static final Set<String> REGISTRATIONS = createRegistration("!=", "neq","NEQ","<>");
 
     /**
-     * @inheritDoc
+     *
      */
     public NotEqual(Integer id) {
         super(id);
@@ -52,7 +52,7 @@ public class NotEqual<T> extends LogicalOperator<T> {
 
     /**
      *
-     * @inheritDoc
+     *
      */
     public Set<String> getRegistrations() {
         return REGISTRATIONS;

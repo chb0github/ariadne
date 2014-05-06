@@ -21,7 +21,7 @@ public class And extends LogicalOperator<Boolean> {
     private static final Set<String> REGISTRATIONS = createRegistration("&&", "and","AND");
 
     /**
-     * @inheritDoc
+     *
      */
     public And(Integer id) {
         super(id);
@@ -91,7 +91,7 @@ public class And extends LogicalOperator<Boolean> {
 
     /**
      *
-     * @inheritDoc
+     *
      * @return ['and','AND','&&']
      */
     public Set<String> getRegistrations() {

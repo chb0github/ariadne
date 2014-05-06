@@ -43,9 +43,9 @@ import org.bongiorno.ariadne.interfaces.Predicate;
  * Operations.
  * <p/>
  * There are 3 clutch components to a KnowledgeBase.
- * 1) Operators {@see Operators}
- * 2) OperandOwners {@see OperandOwner}
- * 3) Operations {@see Operations}
+ * 1) Operators { Operators}
+ * 2) OperandOwners { OperandOwner}
+ * 3) Operations { Operations}
  * <p/>
  * The preferred way to load/store data for your KnowledgeBase is to override load()/store()
  * and implement them.
@@ -383,10 +383,10 @@ public abstract class KnowledgeBase extends Observable implements Loadable, Stor
     /**
      * This method takes lho and rho as input and passes them to a NumericOperandOwner
      *
-     * @param lho
-     * @param op
-     * @param rho
-     * @return
+     * @param lho Fill this in
+     * @param op Fill this in
+     * @param rho Fill this in
+     * @return Fill this in
      * @throws AriadneException
      */
     public Equation getEquation(String lho, String op, String rho) throws AriadneException {
@@ -402,7 +402,7 @@ public abstract class KnowledgeBase extends Observable implements Loadable, Stor
      * @return an Equation representing the input
      * @throws AriadneException if there was a problem, such as specifying an operator that
      *                          is not suitable for equations
-     * @see org.bongiorno.ariadne.interfaces.Operator#getRegistrations()
+     *  org.bongiorno.ariadne.interfaces.Operator#getRegistrations()
      */
     public Equation getEquation(Double lho, String op, Double rho) throws AriadneException {
         return operationFact.getEquation(lho, op, rho);
@@ -529,7 +529,7 @@ public abstract class KnowledgeBase extends Observable implements Loadable, Stor
      * See the respective equals method for those classes
      *
      * @param kb the other Knowledgebase
-     * @return
+     * @return Fill this in
      */
     public boolean equals(Object kb) {
         boolean eq = (kb == this);

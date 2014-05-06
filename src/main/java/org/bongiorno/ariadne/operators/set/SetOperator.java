@@ -12,7 +12,7 @@ import org.bongiorno.ariadne.operators.AbstractOperator;
 public abstract class SetOperator<T> extends AbstractOperator<Set<T>,Set<T>> {
 
     /**
-     * @inheritDoc
+     *
      */
     public SetOperator(Integer id) {
         super(id);

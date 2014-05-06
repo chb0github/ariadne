@@ -24,7 +24,7 @@ public class LessThanEqual<T extends Comparable<T>> extends LogicalComparableOpe
     private static final Set<String> REGISTRATIONS = createRegistration("<=", "lte","LTE");
 
     /**
-     * @inheritDoc
+     *
      */
     public LessThanEqual(Integer id) {
         super(id);
@@ -50,7 +50,7 @@ public class LessThanEqual<T extends Comparable<T>> extends LogicalComparableOpe
     }
 
     /**
-     * @inheritDoc
+     *
      * @return ['lte', 'LTE', '<=']
      */
     public Set<String> getRegistrations() {

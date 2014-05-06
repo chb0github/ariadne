@@ -14,7 +14,7 @@ public class Union<T> extends SetOperator<T> {
     private static final Set<String> REGISTRATIONS = createRegistration("union", "U");
 
     /**
-     * @inheritDoc
+     *
      */
     public Union(Integer id) {
         super(id);
@@ -49,7 +49,7 @@ public class Union<T> extends SetOperator<T> {
     }
 
     /**
-     * @inheritDoc
+     *
      * @return true
      */
     public Boolean isCommutative() {

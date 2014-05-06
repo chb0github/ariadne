@@ -11,7 +11,7 @@ public class SubsetOf<T> extends LogicalOperator<Set<T>> {
     private static final Set<String> REGISTRATIONS = createRegistration("subset", "subsetof");
 
     /**
-     * @inheritDoc
+     *
      */
     public SubsetOf(Integer id) {
         super(id);
@@ -47,7 +47,7 @@ public class SubsetOf<T> extends LogicalOperator<Set<T>> {
 
     /**
      * @return false
-     * @inheritDoc
+     *
      */
     public Boolean isCommutative() {
         return false;
@@ -55,7 +55,7 @@ public class SubsetOf<T> extends LogicalOperator<Set<T>> {
 
     /**
      * @return ['subset', 'subsetof']
-     * @inheritDoc
+     *
      */
     public Set<String> getRegistrations() {
         return REGISTRATIONS;

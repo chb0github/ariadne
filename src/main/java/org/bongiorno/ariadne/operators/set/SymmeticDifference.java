@@ -16,7 +16,7 @@ public class SymmeticDifference<T> extends SetOperator<T> {
 
     private static final Set<String> REGISTRATIONS = AbstractOperator.createRegistration("symdiff");
     /**
-     * @inheritDoc
+     *
      */
     public SymmeticDifference(Integer id) {
         super(id);
@@ -56,7 +56,7 @@ public class SymmeticDifference<T> extends SetOperator<T> {
     }
 
     /**
-     * @inheritDoc
+     *
      * @return true
      */
     public Boolean isCommutative() {
@@ -64,7 +64,7 @@ public class SymmeticDifference<T> extends SetOperator<T> {
     }
 
     /**
-     * @inheritDoc
+     *
      * @return ['symdiff']
      */
     public Set<String> getRegistrations() {

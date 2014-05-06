@@ -16,7 +16,7 @@ public class Subtract extends ArithmeticOperator {
     private static final Set<String> REGISTRATIONS = createRegistration("-", "minus", "sub", "subtract");
 
     /**
-     * @inheritDoc
+     *
      */
     public Subtract(Integer id) {
         super(id);
@@ -27,7 +27,7 @@ public class Subtract extends ArithmeticOperator {
      * @param lho duh
      * @param rho duh
      * @return lho -rho
-     * @see Double
+     *  Double
      */
     public Double eval(Double lho, Double rho) {
         return lho - rho;

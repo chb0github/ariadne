@@ -16,7 +16,7 @@ public abstract class LogicalComparableOperator<T extends Comparable<T>> extends
     }
 
     /**
-     * @inheritDoc
+     *
      * by definition, if it's comparable, it most certainly isn't logical
      * @return lho == null
      */

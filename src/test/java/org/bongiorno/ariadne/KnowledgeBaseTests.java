@@ -9,7 +9,8 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
-import static junit.framework.Assert.*;
+import static org.junit.Assert.*;
+
 
 /**
  * @author chribong
@@ -218,7 +219,7 @@ public class KnowledgeBaseTests extends AbstractAriadneTest {
 
         Equation<Double, Object> test = engine.getEquation(noo, "+", ten);
         Double d = test.evaluate(null);
-        assertEquals(d, 20d);
+        assertEquals(d, new Double(20d));
 
     }
 

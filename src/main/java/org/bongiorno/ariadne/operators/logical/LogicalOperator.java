@@ -12,7 +12,7 @@ import org.bongiorno.ariadne.operators.AbstractOperator;
  */
 public abstract class LogicalOperator<OO_T> extends AbstractOperator<Boolean, OO_T> {
     /**
-     * @inheritDoc
+     *
      */
     public LogicalOperator(Integer id) {
         super(id);

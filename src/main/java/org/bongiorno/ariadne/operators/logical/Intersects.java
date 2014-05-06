@@ -11,14 +11,14 @@ import java.util.Set;
  *         Time: 5:21:30 PM
  *         This class defines a boolean expression of "if A intersects B", that is, if any member of A is in B, or if any
  *         member of B is in A
- *         Note: This class wether or not A intersects B and differs from the class {@see Intersection} class which returns a set of elements that intersect
+ *         Note: This class wether or not A intersects B and differs from the class { Intersection} class which returns a set of elements that intersect
  */
 public class Intersects<T> extends LogicalOperator<Set<T>> {
 
     private static final Set<String> REGISTRATIONS = createRegistration("intersects");
 
     /**
-     * @inheritDoc
+     *
      */
     public Intersects(Integer id) {
         super(id);
@@ -59,7 +59,7 @@ public class Intersects<T> extends LogicalOperator<Set<T>> {
 
     /**
      * @return true
-     * @inheritDoc
+     *
      */
     public Boolean isCommutative() {
         return true;
@@ -67,7 +67,7 @@ public class Intersects<T> extends LogicalOperator<Set<T>> {
 
     /**
      * @return ['intersects']
-     * @inheritDoc
+     *
      */
     public Set<String> getRegistrations() {
         return REGISTRATIONS;

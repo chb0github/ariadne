@@ -1,9 +1,7 @@
 package org.bongiorno.ariadne;
 
 import org.bongiorno.ariadne.implementations.xml.jaxb.KnowledegeBaseEntry;
-import org.bongiorno.ariadne.implementations.xml.jaxb.OperatorEntry;
 import org.bongiorno.ariadne.implementations.xml.jaxb.XmlKnowledgeBase;
-import org.bongiorno.ariadne.operandowners.BooleanOperandOwner;
 import org.bongiorno.ariadne.operators.arithmetic.*;
 import org.bongiorno.ariadne.operators.logical.*;
 import org.junit.Before;
@@ -17,17 +15,13 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.Marshaller;
 import java.io.*;
-import java.net.URL;
-import java.util.Enumeration;
-import java.util.Properties;
-import java.util.Set;
 
 /**
  * @author chribong
  */
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations = {"classpath:xml-test-ontext.xml"})
+@ContextConfiguration(locations = {"classpath:xml-test-context.xml"})
 public class XmlIntegrationTest extends AbstractIntegrationTest {
     static {
         System.getProperties().put("engines.xml", "org.bongiorno.ariadne.XmlIntegrationTest$InMemoryStreamKnowledgeBase");

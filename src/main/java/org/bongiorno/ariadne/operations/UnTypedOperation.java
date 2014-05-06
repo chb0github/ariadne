@@ -64,14 +64,14 @@ public class UnTypedOperation<RET_T, OPERAND_T, RUN_T> implements Operation<RET_
     }
 
     /**
-     * @inheritDoc
+     *
      */
     public Integer getId() {
         return id;
     }
 
     /**
-     * @inheritDoc
+     *
      */
     public void validate() throws AriadneException {
         lho.validate();
@@ -80,7 +80,7 @@ public class UnTypedOperation<RET_T, OPERAND_T, RUN_T> implements Operation<RET_
     }
 
     /**
-     * @see #equals(UnTypedOperation)
+     *  #equals(UnTypedOperation)
      */
     public boolean equals(Object obj) {
         return equals((UnTypedOperation) obj);

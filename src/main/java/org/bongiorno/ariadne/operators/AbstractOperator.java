@@ -44,7 +44,7 @@ public abstract class AbstractOperator<RET_T, OO_T> implements Operator<RET_T,OO
     }
 
     /**
-     * @see #equals(org.bongiorno.ariadne.interfaces.Operator)
+     *  #equals(org.bongiorno.ariadne.interfaces.Operator)
      * @param obj the other Operator to compare to
      * @return true if the classes are equal
      */

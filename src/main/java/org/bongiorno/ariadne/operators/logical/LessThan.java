@@ -24,7 +24,7 @@ public class LessThan<T extends Comparable<T>> extends LogicalComparableOperator
     private static final Set<String> REGISTRATIONS = createRegistration("<", "lt","LT");
 
     /**
-     * @inheritDoc
+     *
      */
     public LessThan(Integer id) {
         super(id);

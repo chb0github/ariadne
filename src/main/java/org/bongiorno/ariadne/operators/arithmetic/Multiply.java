@@ -14,7 +14,7 @@ public class Multiply extends ArithmeticOperator {
     private static final Set<String> REGISTRATIONS = createRegistration("*", "mul","multiply");
 
     /**
-     * @inheritDoc
+     *
      */
     public Multiply(Integer id) {
         super(id);
@@ -25,7 +25,7 @@ public class Multiply extends ArithmeticOperator {
      * @param lho duh
      * @param rho duh
      * @return what you would expect
-     * @see Double
+     *  Double
      */
     public Double eval(Double lho, Double rho) {
         return lho * rho;

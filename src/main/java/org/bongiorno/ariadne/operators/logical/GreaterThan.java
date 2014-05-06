@@ -26,7 +26,7 @@ public class GreaterThan<T extends Comparable<T>> extends LogicalComparableOpera
     private static final Set<String> REGISTRATIONS = AbstractOperator.createRegistration(">", "gt", "GT");
 
     /**
-     * @inheritDoc
+     *
      */
     public GreaterThan(Integer id) {
         super(id);

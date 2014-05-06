@@ -14,7 +14,7 @@ public class Max extends ArithmeticOperator {
     private static final Set<String> REGISTRATIONS = createRegistration("max", "maximum");
 
     /**
-     * @inheritDoc
+     *
      */
     public Max(Integer id) {
         super(id);
@@ -22,7 +22,7 @@ public class Max extends ArithmeticOperator {
 
     /**
      * @return Math.max
-     * @see Math#max(double, double)
+     *  Math#max(double, double)
      */
     public Double eval(Double lho, Double rho) {
         return Math.max(lho, rho);

@@ -17,43 +17,43 @@ public class ExceptionOnDuplicateKeyMap<K, V> implements Map<K,V> {
         this.delegate = delegate;
     }
     /**
-     * @inheritDoc
+     *
      */
     public void clear() {
         delegate.clear();
     }
     /**
-     * @inheritDoc
+     *
      */
     public boolean containsKey(Object key) {
         return delegate.containsKey(key);
     }
     /**
-     * @inheritDoc
+     *
      */
     public boolean containsValue(Object value) {
         return delegate.containsValue(value);
     }
     /**
-     * @inheritDoc
+     *
      */
     public Set<Map.Entry<K, V>> entrySet() {
         return delegate.entrySet();
     }
     /**
-     * @inheritDoc
+     *
      */
     public V get(Object key) {
         return delegate.get(key);
     }
     /**
-     * @inheritDoc
+     *
      */
     public boolean isEmpty() {
         return delegate.isEmpty();
     }
     /**
-     * @inheritDoc
+     *
      */
     public Set<K> keySet() {
         return delegate.keySet();
@@ -76,7 +76,7 @@ public class ExceptionOnDuplicateKeyMap<K, V> implements Map<K,V> {
         return retVal;
     }
     /**
-     * @inheritDoc
+     *
      */
     public void putAll(Map<? extends K, ? extends V> m) {
         for (Entry<? extends K, ? extends V> entry : m.entrySet())
@@ -84,19 +84,19 @@ public class ExceptionOnDuplicateKeyMap<K, V> implements Map<K,V> {
     }
 
     /**
-     * @inheritDoc
+     *
      */
     public V remove(Object key) {
         return delegate.remove(key);
     }
     /**
-     * @inheritDoc
+     *
      */
     public int size() {
         return delegate.size();
     }
     /**
-     * @inheritDoc
+     *
      */
     public Collection<V> values() {
         return delegate.values(); 

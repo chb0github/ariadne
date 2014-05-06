@@ -13,7 +13,7 @@ public abstract class ArithmeticOperator extends AbstractOperator<Double,Double>
 
     /**
      *
-     * @inheritDoc
+     *
      */
     protected ArithmeticOperator(Integer id) {
         super(id);

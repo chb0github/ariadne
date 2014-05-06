@@ -15,7 +15,7 @@ public class Divide extends ArithmeticOperator {
     private static final Set<String> REGISTRATIONS = createRegistration("/", "div","divide");
 
     /**
-     * @inheritDoc
+     *
      */
     public Divide(Integer id) {
         super(id);

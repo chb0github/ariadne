@@ -14,7 +14,7 @@ public class Min extends ArithmeticOperator {
     private static final Set<String> REGISTRATIONS = createRegistration("min", "minimum");
 
     /**
-     * @inheritDoc
+     *
      */
     public Min(Integer id) {
         super(id);
@@ -25,7 +25,7 @@ public class Min extends ArithmeticOperator {
      * @param lho duh
      * @param rho duh
      * @return Math.min
-     * @see Math#min(double, double) 
+     *  Math#min(double, double)
      */
     protected Double eval(Double lho, Double rho) {
         return Math.min(lho,rho);

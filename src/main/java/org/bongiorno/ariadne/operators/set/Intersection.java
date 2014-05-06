@@ -8,7 +8,7 @@ import java.util.Set;
  * Date: Apr 15, 2008
  * Time: 5:21:30 PM
  *
- * Note: This class returns the intersection of A and B and differs from the class {@see Intersects} class which
+ * Note: This class returns the intersection of A and B and differs from the class { Intersects} class which
  * returns true/false
  */
 public class Intersection<T> extends SetOperator<T> {
@@ -16,7 +16,7 @@ public class Intersection<T> extends SetOperator<T> {
     private static final Set<String> REGISTRATIONS = createRegistration("intersect", "intersection","intersection of");
 
     /**
-     * @inheritDoc
+     *
      */
     public Intersection(Integer id) {
         super(id);
@@ -53,7 +53,7 @@ public class Intersection<T> extends SetOperator<T> {
     }
 
     /**
-     * @inheritDoc
+     *
      * @return true
      */
     public Boolean isCommutative() {
@@ -61,7 +61,7 @@ public class Intersection<T> extends SetOperator<T> {
     }
 
     /**
-     * @inheritDoc
+     *
      * @return ['intersect', 'intersection','intersection of']
      */
     public Set<String> getRegistrations() {

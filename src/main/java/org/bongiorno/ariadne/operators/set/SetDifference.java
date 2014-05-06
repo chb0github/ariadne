@@ -14,7 +14,7 @@ public class SetDifference<T> extends SetOperator<T> {
     private static final Set<String> REGISTRATIONS = createRegistration("setdiff");
     
     /**
-     * @inheritDoc
+     *
      */
     public SetDifference(Integer id) {
         super(id);
@@ -50,7 +50,7 @@ public class SetDifference<T> extends SetOperator<T> {
     }
 
     /**
-     * @inheritDoc
+     *
      * @return false
      */
     public Boolean isCommutative() {
@@ -58,7 +58,7 @@ public class SetDifference<T> extends SetOperator<T> {
     }
 
     /**
-     * @inheritDoc
+     *
      * @return ['setdiff']
      */
     public Set<String> getRegistrations() {
